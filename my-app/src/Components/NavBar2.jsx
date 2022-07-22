@@ -14,10 +14,14 @@ import {
   
       <div className="main_div1">
       <div className="navbar_2">
-         <img className="navbar_1img" width="155px" src="https://assets.www.happyfox.com/v2/images/site-nav/helpdesk-logo.svg" alt="error"/>
-         
+        
+ <div style={{marginRight:"20px"}}>
+ <img className="navbar_1img" width="85px" src="https://assets.www.happyfox.com/v2/images/site-nav/helpdesk-logo.svg" alt="error"/>
+ </div>
+
+<div style={{marginLeft:"60px"}}>
   <Menu >
-    <MenuButton _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
+    <MenuButton sx={{color:"#888b8d",fontFamily:"hero-new,sans-sarif",fontSize:"0.7rem"}} _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
     Feature
     </MenuButton>
     <MenuList>
@@ -25,7 +29,7 @@ import {
     </MenuList>
   </Menu>
   <Menu >
-    <MenuButton _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
+    <MenuButton sx={{color:"#888b8d",fontFamily:"hero-new,sans-sarif",fontSize:"0.7rem"}} _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
     Solving
     </MenuButton>
     <MenuList>
@@ -33,7 +37,7 @@ import {
     </MenuList>
   </Menu>
   <Menu >
-    <MenuButton _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
+    <MenuButton sx={{color:"#888b8d",fontFamily:"hero-new,sans-sarif",fontSize:"0.7rem"}} _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
   Pricing
     </MenuButton>
     <MenuList>
@@ -41,20 +45,19 @@ import {
     </MenuList>
   </Menu>
   <Menu >
-    <MenuButton _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
+    <MenuButton sx={{color:"#888b8d",fontFamily:"hero-new,sans-sarif",fontSize:"0.7rem"}} _hover={{ bg: 'transparent' }}  bg='transparent'  _expanded={{ color: 'black' }} className="navbar_1menu" as={Button} rightIcon={<ChevronDownIcon />}>
   Resources
     </MenuButton>
     <MenuList>
     <div className="div">tere bin</div> 
     </MenuList>
   </Menu>
-  
-  
-  
+  </div>
   
    </div>
+
    <div>
-  <Button  colorScheme='orange'  >Get Demo</Button>
+  <Button  sx={{backgroundColor:"#ff8d00"}} _hover={{backgroundColor:"#ff8d00"}}  >Get Demo</Button>
   </div>
    </div>
     )

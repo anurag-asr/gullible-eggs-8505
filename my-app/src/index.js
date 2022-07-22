@@ -1,25 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { ChakraProvider } from '@chakra-ui/react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-const element = <FontAwesomeIcon icon={faCoffee} />
+import App from "./App";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
 root.render(
-  <React.StrictMode >
-     <ChakraProvider>
-       <App />
-    </ChakraProvider>
- 
-  </React.StrictMode>
+  <StrictMode>
+    {/* < BrowserRouter > */}
+      <ChakraProvider >
+        <App />
+      </ChakraProvider>
+    {/* </ BrowserRouter > */}
+    
+  </StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
