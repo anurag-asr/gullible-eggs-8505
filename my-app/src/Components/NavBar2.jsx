@@ -25,7 +25,29 @@ import {
     Feature
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
   <Menu >
@@ -33,7 +55,29 @@ import {
     Solving
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
   <Menu >
@@ -41,7 +85,29 @@ import {
   Pricing
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
   <Menu >
@@ -49,7 +115,29 @@ import {
   Resources
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
   </div>
@@ -57,7 +145,8 @@ import {
    </div>
 
    <div>
-  <Button  sx={{backgroundColor:"#ff8d00"}} _hover={{backgroundColor:"#ff8d00"}}  >Get Demo</Button>
+    <a href="https://www.happyfox.com/help-desk-software-demo/"> <Button  sx={{backgroundColor:"#ff8d00",height:"29px",color:"#fff",marginTop:'5px'}} _hover={{backgroundColor:"#ff8d00"}}  >Get Demo</Button></a>
+ 
   </div>
    </div>
     )
