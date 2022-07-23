@@ -10,11 +10,12 @@ function App() {
   return (
     <div className="App">
 
-      {/* <NavBar1/>
-      <Navbar2/> */}
-      {/* <Headers/> */}
-      {/* <Body/> */}
-      <SliderBox/>
+    <NavBar1/> 
+      <Navbar2/> 
+     
+      <Body/>
+       <Headers/>
+      {/* <SliderBox/> */}
     </div>
   );
 }

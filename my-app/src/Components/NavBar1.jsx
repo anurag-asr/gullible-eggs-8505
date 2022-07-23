@@ -26,7 +26,29 @@ import {
     Customer Service
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
 
@@ -35,7 +57,29 @@ import {
     It Support
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
 
@@ -44,11 +88,34 @@ import {
   Operation Support
     </MenuButton>
     <MenuList>
-    <div className="div">tere bin</div> 
+    <div className="div">
+        <div className='div1'>
+
+            <h6>FOR IT TEAMS</h6>
+            <br />
+            <br />
+            <p>Adopt advanced, modern</p>
+            <p>and unified support</p>
+            <p>solutions for your IT team</p>
+
+        </div>
+        <div className='div2'>
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-1.png" alt="" />
+        </div>
+        <div className='div3'>
+       
+                <p>FEATURED</p>
+                <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-show-item-2.jpg" alt="" />
+                <p >Top 7 HappyFox Feaures to </p>
+                <p>Step Up Your IT Support Game</p>
+          
+        </div>
+     </div> 
     </MenuList>
   </Menu>
   
-  <Button  _hover={{ bg: 'white' }} className="navbar_1btn" sx={{fontSize:"0.7rem",background:"tranparent"}}>Login</Button>
+  <a href="https://www.happyfox.com/login/"> <Button   _hover={{ bg: 'white' }} className="navbar_1btn" sx={{fontSize:"0.7rem",background:"tranparent"}}>Login</Button></a>
+ 
 
   
   

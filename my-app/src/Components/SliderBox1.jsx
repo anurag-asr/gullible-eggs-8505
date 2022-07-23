@@ -7,24 +7,24 @@ import "./Slider.css";
 
  const sliderData = [
     {
-      image: "https://i.im.ge/2022/07/23/F7thop.png",
+      image: "https://i.im.ge/2022/07/23/F76uWP.png",
       heading: "Slide One",
       desc: "This is the description of slide one Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
     {
-      image: "https://i.im.ge/2022/07/23/F7t5Bf.png",
+      image: "https://i.im.ge/2022/07/23/F762Ym.png",
       heading: "Slide Two",
       desc: "This is the description of slide two Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
     {
-      image: "https://i.im.ge/2022/07/23/F7twHW.png",
+      image: "https://i.im.ge/2022/07/23/F76aHT.png",
       heading: "Slide Three",
       desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
   ];
   
 
-const SliderBox = () => {
+const SliderBox1= () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
 
@@ -87,4 +87,4 @@ const SliderBox = () => {
   );
 };
 
-export default SliderBox;
+export default SliderBox1;

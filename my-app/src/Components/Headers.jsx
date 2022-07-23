@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Headers = () => {
   return (
-    <div style={{backgroundColor:"#181c20"}}>
+    <div style={{backgroundColor:"#181c20",paddingTop:"4rem"}}>
     <div className='headers'>
 
         <div className="footer_div1">
@@ -125,10 +125,14 @@ export const Headers = () => {
             <p>GDPR</p>
         </div>
         <div>
-            <img src="https://assets.www.happyfox.com/v2/images/facebook-logo-button1x.svg" alt="" />
-            <img src="https://assets.www.happyfox.com/v2/images/facebook-logo-button1x.svg" alt="" />
-            <img src="https://assets.www.happyfox.com/v2/images/facebook-logo-button1x.svg" alt="" />
-            <img src="https://assets.www.happyfox.com/v2/images/facebook-logo-button1x.svg" alt="" />
+           
+            <a href="https://www.facebook.com/happyfoxapp/"><img src="https://assets.www.happyfox.com/v2/images/facebook-logo-button1x.svg" alt="" /></a>
+      
+            <a href="https://twitter.com/HappyFoxApp"><img src="https://assets.www.happyfox.com/v2/images/twitter1x.svg"/></a>
+          
+            <a href="https://www.youtube.com/user/HappyFoxApp/"> <img src="https://assets.www.happyfox.com/v2/images/youtube1x.svg" alt="" /></a>
+            <a href="https://www.linkedin.com/company/happyfox-inc-/"><img src="https://assets.www.happyfox.com/v2/images/bottom-footer/linkedin-logo-button.svg" alt="" /></a>
+            
         </div>
         <div>
             <p>Copyright ©2022 HappyFox Inc. All right Resereved</p>

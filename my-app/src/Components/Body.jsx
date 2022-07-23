@@ -1,8 +1,19 @@
 
 import React from 'react'
-import { AspectRatio, Button } from '@chakra-ui/react'
+import { AspectRatio, Box, Button, Spacer } from '@chakra-ui/react'
+import SliderBox from './SliderBox'
+import SliderBox1 from './SliderBox1'
+import { useNavigate } from 'react-router-dom'
+
+
 
 export const Body = () => {
+    
+// const navigate=useNavigate()
+
+const handleClick=()=>{
+    // navigate=("")
+}
   return (
     <div>
         <div className='body_subdiv1'>
@@ -15,7 +26,8 @@ export const Body = () => {
             <div><p style={{fontSize:"0.6rem",color:"#a4a2a9"}}>Deliver outstanding support and achieve new goals with HappyFox.</p></div>
             <div className='body_div1-div3'>
                 <input className="search_bar" type="text" placeholder='Enter Your Work Email' />
-                <button className='search_btn'>GET A DEMO</button>
+                
+                <button onClick={handleClick} className='search_btn'>GET A DEMO</button>
             </div>
           </div>
 
@@ -51,9 +63,12 @@ export const Body = () => {
             All-in-one help desk ticketing system that provides faster and better support for your customers.
             </div>
             <div>
-            <Button sx={{marginTop:"5%",width:"130px",height:"30px",fontSize:"0.7rem",fontWeight:"200"}} colorScheme='#2a2a2a' variant='outline'>
+                <a href="">
+                <Button  sx={{marginTop:"5%",width:"130px",height:"30px",fontSize:"0.7rem",fontWeight:"200"}} colorScheme='#2a2a2a' variant='outline'>
              take a tour
             </Button>
+                </a>
+           
             </div>
           </div>
 
@@ -79,9 +94,52 @@ export const Body = () => {
                 </div>
                 <div></div>
             </div>
-            <br /><br /><br /><br /><br />
+
+            <SliderBox/>
+            
+            <div className='sliderbox'>
+                <button className="sliderbox_btn1"> View all customer story </button>
+                <button className='sliderbox_btn2'> Get a demo </button>
+            </div>
+
+            <div style={{backgroundColor:"#292d39",paddingTop:"30px", color:"#fff"}}>
+                <p> Align your goals.</p>
+                <h3>    Improve your ROI</h3>
+           
+        
+            </div>
+            
+            <div><img src="https://i.im.ge/2022/07/23/F7iLI6.png" alt="" />
+            </div>
+            {/* <br /> */}
+
+            {/* <div className='btn1'>View Al Features</div> */}
+            {/* <div className='btn2'>Get a Demo</div> */}
+              <Box sx={{backgroundColor:"#292d39",paddingBottom:"3rem", justifyContent:"space-between",fontsize:"1px"}}>
+                <a href="https://www.happyfox.com/ticket-support-system/"><Button sx={{color:"gray", marginRight:"20px",marginTop:"20px",backgroundColor:"#fff",width:"150px",height:"27px",fontsize:"1px"}}>View All Features</Button></a>
                 
+                {/* <Spacer/> */}
+               <a href=""><Button sx={{color:"#fff",marginLeft:"20px",marginTop:"20px", backgroundColor:"orange",width:"150px",height:"27px",fontsize:"1%"}}>Get a Demo</Button> </a>  
+              </Box>  
           </div>
+
+        </div>
+
+        <div className='body_div6'>
+            <div className='body_div6_div1'>Help Desk Software for today's</div>
+            <div className='body_div6_div2'>fast-changing global businesses</div>
+            <div className='body_div6_div3' style={{marginTop:"5rem"}}> <img src="https://i.im.ge/2022/07/23/F7mnEW.png" alt="" /></div>
+            <div className='body_div6_div4'><button className='body_div6_div4_btn'>Get a demo</button></div>
+            {/* <div className='grid'>
+ 
+                <div style={{backgroundColor:"yellow"}}>bixb</div>
+                <div style={{backgroundColor:"green"}}>boxs</div>
+                <div style={{backgroundColor:"white"}}>box4</div>
+            </div> */}
+           <div style={{marginTop:"3rem"}}>
+           <SliderBox1/>
+           </div>
+          
 
         </div>
         
